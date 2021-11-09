@@ -1,13 +1,12 @@
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background: coral;
 }
 
 .pazzle_logo img{
   width: 150px;
-  margin-left: 25px;
-  padding-left: 25px;
 }
 
 .navbar-items {
@@ -21,6 +20,13 @@
     padding-right: 10px;
 }
 
-.pazzle-login h4{
-    margin-right: 30px;
+.navbar-item{
+    font-size: 15px;
+    color: #fff;
 }
+
+.navbar-item:hover{
+    color: yellow;
+}
+
+
